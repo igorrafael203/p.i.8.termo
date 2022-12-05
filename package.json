@@ -2,7 +2,9 @@
   "name": "devconnector",
   "version": "1.0.0",
   "description": "Social network for developers",
-  "node": "10.15.3",
+  "engines": {
+    "node": "10.15.3"
+  },
   "main": "server.js",
   "scripts": {
     "start": "node server",
